@@ -4,6 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Camera/CameraComponent.h"
+#include "Components/CapsuleComponent.h"
+#include "Components/StaticMeshComponent.h"
+#include "GameFramework/CharacterMovementComponent.h"
+#include "GameFramework/Controller.h"
+#include "GameFramework/SpringArmComponent.h"
+#include "Blueprint/UserWidget.h"
 #include "Runner.generated.h"
 
 UCLASS()
@@ -14,6 +21,11 @@ class MYPROJECT3_API ARunner : public ACharacter
 public:
 	// Sets default values for this character's properties
 	ARunner();
+
+	UPPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
+		USpringArmComponent* CameraBoom;
+
+		
 
 protected:
 	// Called when the game starts or when spawned
