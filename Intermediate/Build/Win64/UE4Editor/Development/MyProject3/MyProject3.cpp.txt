@@ -1,0 +1,2 @@
+C:\Users\Chibuife\Documents\Unreal Projects\MyProject3\Intermediate\Build\Win64\UE4Editor\Development\MyProject3\Definitions.MyProject3.h
+C:\Users\Chibuife\Documents\Unreal Projects\MyProject3\Source\MyProject3\MyProject3.h
