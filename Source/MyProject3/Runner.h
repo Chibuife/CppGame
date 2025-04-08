@@ -22,10 +22,29 @@ public:
 	// Sets default values for this character's properties
 	ARunner();
 
-	UPPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
 		USpringArmComponent* CameraBoom;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
+		UCameraComponent* FollowCamera;
 		
+	void MoveForward(float Axis);
+	void MoveRight(float Axis);
+
+	bool bDead;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		float Power;
+
+	UPROPERTY(EditAnywhere)
+		float Power_Treshold;
+
+	UFUNCTION()
+		void OnBeginOverlap(class UPrimitiveComponent* HitComponent, class AActor* Actor, class UPrimitiveComponent* OtherActor, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+
+	UPROPERTY(EditAnywhere, Catagory = "UI HUD")
+		TSubclassOf<UUserWidget> Player_Power_Widget_Class;
+	UUserWidget* Player_Power_Widget;
 
 protected:
 	// Called when the game starts or when spawned

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\MyProject3.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{A5435109-DCEE-4AAC-9AAE-7D2A5685A430}</UniqueIdentifier>
+      <UniqueIdentifier>{FCF4FAAB-52BA-40FD-86FD-C9A17A424156}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MyProject3.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,10 @@
     <None Include="..\..\Source\MyProject3Editor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{511B6695-AF1E-4791-92E0-CFF71D384389}</UniqueIdentifier>
+      <UniqueIdentifier>{999D6059-81DD-43CB-9432-C606330A3DA3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +32,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\MyProject3">
-      <UniqueIdentifier>{740072A4-419A-45A7-BAD9-E305C9CB4FD4}</UniqueIdentifier>
+      <UniqueIdentifier>{D471691D-8742-452B-849A-87BA97A6FFB3}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\MyProject3\BatteryMan.cpp">
       <Filter>Source\MyProject3</Filter>
@@ -63,6 +65,12 @@
       <Filter>Source\MyProject3</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\MyProject3\Runner.h">
+      <Filter>Source\MyProject3</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject3\Runnner_GameMode.cpp">
+      <Filter>Source\MyProject3</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject3\Runnner_GameMode.h">
       <Filter>Source\MyProject3</Filter>
     </ClInclude>
   </ItemGroup>
