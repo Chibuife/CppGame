@@ -208,7 +208,7 @@ void EmptyLinkFunctionForGeneratedCodeRunner() {}
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ARunner_Statics::NewProp_Power_Treshold = { "Power_Treshold", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ARunner, Power_Treshold), METADATA_PARAMS(Z_Construct_UClass_ARunner_Statics::NewProp_Power_Treshold_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ARunner_Statics::NewProp_Power_Treshold_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARunner_Statics::NewProp_Player_Power_Widget_Class_MetaData[] = {
-		{ "Category", "Runner" },
+		{ "Category", "UI HUD" },
 		{ "ModuleRelativePath", "Runner.h" },
 	};
 #endif
@@ -247,7 +247,7 @@ void EmptyLinkFunctionForGeneratedCodeRunner() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ARunner, 2920919409);
+	IMPLEMENT_CLASS(ARunner, 1448304317);
 	template<> MYPROJECT3_API UClass* StaticClass<ARunner>()
 	{
 		return ARunner::StaticClass();

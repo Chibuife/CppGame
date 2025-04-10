@@ -67,10 +67,10 @@
     <ClInclude Include="..\..\Source\MyProject3\Runner.h">
       <Filter>Source\MyProject3</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\MyProject3\Runnner_GameMode.cpp">
+    <ClCompile Include="..\..\Source\MyProject3\Runner_GameMode.cpp">
       <Filter>Source\MyProject3</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\MyProject3\Runnner_GameMode.h">
+    <ClInclude Include="..\..\Source\MyProject3\Runner_GameMode.h">
       <Filter>Source\MyProject3</Filter>
     </ClInclude>
   </ItemGroup>
